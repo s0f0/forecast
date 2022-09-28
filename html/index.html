@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/db4c345223.js" crossorigin="anonymous"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div id="main_container">
+    <!-- first section -->
+    <div id="section1">
+        <!-- search -->
+        <div id="section1-part1">
+            <div id="display-flex">
+                <input type="text" placeholder="Search" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <input type="checkbox" id="toggle">
+
+        <label class="toggle" for="toggle">
+          <i class="fa-regular fa-sun"></i>
+          <i class="fa-regular fa-moon"></i>
+          <span class="ball"></span>
+        </label>
+    </div>
+
+    <!-- main info -->
+    <div id="maininfo">
+      <!-- second section -->
+      <div id="section2">
+        <!-- main photo -->
+        <div><img src="../components/light-mode-sunny.svg" alt="sunny" id="main-photo"></div>
+          <div>
+            <p id="location"><i class="fa-solid fa-location-dot"></i> San Francisco</p>
+            <p id="temperature">18<sup>°</sup></p>
+            <p id="description">Cloudy</p>
+          </div>
+          <div id="other-information">
+            <div><i class="fa-solid fa-droplet"></i><span>13%</span></div>
+            <div><i class="fa-solid fa-gauge-simple"></i><span>0.533mBar</span></div>
+            <div><i class="fa-solid fa-wind"></i><span></span>9km/h</div>
+          </div>
+          <!-- sunset and sunrise -->
+      
+          <div id="sunsetandrise">
+            <div><img src="../components/line.svg" alt="line" id="line"></div>
+            <div id="sunrise"><i class="fa-solid fa-circle"></i><span>07:00 AM</span></div>
+            <div id="sunset"><span>06:00 PM</span><i class="fa-solid fa-circle"></i></div>
+          </div>
+      </div>
+
+    <!-- სქროლი აქვს გასაკეთებელი და გასასწორებელია -->
+    <!-- Hourly weather -->
+    <div class="Today">
+      <!-- title -->
+      <div class="title">
+        <h2>Today</h2>
+      </div>
+      <!-- weather -->
+      <div class="Weather" id="Weather">
+        <div class="Am10">
+          <h3 class="clock">10 AM</h3>
+          <div class="cloud"><img src="../components/light-mode-cloudy.svg" alt="erorr" /></div>
+          <h3>19<sup>°</sup></h3>
+        </div>
+        <div class="Am10">
+          <h3 class="clock">10 AM</h3>
+          <div class="cloud"><img src="../components/light-mode-cloudy.svg" alt="erorr" /></div>
+          <h3>19<sup>°</sup></h3>
+        </div>
+        <div class="Am10">
+          <h3 class="clock">10 AM</h3>
+          <div class="cloud"><img src="../components/light-mode-cloudy.svg" alt="erorr" /></div>
+          <h3>19<sup>°</sup></h3>
+        </div>
+        <div class="Am10">
+          <h3 class="clock">10 AM</h3>
+          <div class="cloud"><img src="../components/light-mode-cloudy.svg" alt="erorr" /></div>
+          <h3>19<sup>°</sup></h3>
+        </div>
+        <div class="Am10">
+          <h3 class="clock">10 AM</h3>
+          <div class="cloud"><img src="../components/light-mode-cloudy.svg" alt="erorr" /></div>
+          <h3>19<sup>°</sup></h3>
+        </div>
+        <div class="Am10">
+          <h3 class="clock">10 AM</h3>
+          <div class="cloud"><img src="../components/light-mode-cloudy.svg" alt="erorr" /></div>
+          <h3>19<sup>°</sup></h3>
+        </div>
+        <div class="Am10">
+          <h3 class="clock">10 AM</h3>
+          <div class="cloud"><img src="../components/light-mode-cloudy.svg" alt="erorr" /></div>
+          <h3>19<sup>°</sup></h3>
+        </div>
+        <div class="Am10">
+          <h3 class="clock">10 AM</h3>
+          <div class="cloud"><img src="../components/light-mode-cloudy.svg" alt="erorr" /></div>
+          <h3>19<sup>°</sup></h3>
+        </div>
+        <div class="Am10">
+          <h3 class="clock">10 AM</h3>
+          <div class="cloud"><img src="../components/light-mode-cloudy.svg" alt="erorr" /></div>
+          <h3>19<sup>°</sup></h3>
+        </div>
+       
+      </div>
+    </div>
+
+    <!-- Forecast for next days -->
+    <div class="nectdays">
+      <div id="firstday" class="day">
+        <p>Monday</p>
+        <div><img src="../components/light-mode-sunny.svg" alt="Error"></div>
+        <p>19<sup>°</sup></p>
+      </div>
+
+      <div id="secondday" class="day">
+        <p>Monday</p>
+        <div><img src="../components/light-mode-sunny.svg" alt="Error"></div>
+        <p>19<sup>°</sup></p>
+      </div>
+
+      <div id="thirdday" class="day">
+        <p>Monday</p>
+        <div><img src="../components/light-mode-sunny.svg" alt="Error"></div>
+        <p>19<sup>°</sup></p>
+      </div>
+
+      <div id="fourthday" class="day">
+        <p>Monday</p>
+        <div><img src="../components/light-mode-sunny.svg" alt="Error"></div>
+        <p>19<sup>°</sup></p>
+      </div>
+
+      <div id="fifthday" class="day">
+        <p>Monday</p>
+        <div><img src="../components/light-mode-sunny.svg" alt="Error"></div>
+        <p>19<sup>°</sup></p>
+      </div>
+    </div>
+  
+  </div>
+
+  <!-- script -->
+  <script src="../javascript/script.js"></script>
+</body>
+
+</html>
